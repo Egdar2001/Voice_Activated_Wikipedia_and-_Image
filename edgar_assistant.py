@@ -5,6 +5,7 @@ import speech_recognition as sr
 import pyttsx3
 import wikipedia
 
+
 # Initialize the text-to-speech engine
 engine = pyttsx3.init()
 engine.setProperty('rate', 150)  # Speed of speech
