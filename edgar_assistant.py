@@ -11,6 +11,7 @@ engine = pyttsx3.init()
 engine.setProperty('rate', 150)  # Speed of speech
 engine.setProperty('volume', 1.0)  # Volume level
 
+
 def speak(text):
     """Function to convert text to speech."""
     engine.say(text)
